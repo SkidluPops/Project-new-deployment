@@ -9,12 +9,18 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
+        <li>Web Development</li>
+        <li>AI Development</li>
+        <li>App Designing</li>
+        <li>UI/UX Designing</li>
+        <li> Digital Marketing</li>
+        <li>Google SEO Optimization</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>REACT.js</li>
         <li>JavaScript</li>
-        <li>React</li>
+        <li>PYTHON</li>
+        <li>MySQL</li>
       </ul>
     ),
   },
@@ -23,8 +29,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>University of JNTU.</li>
+        <li>Bachelors of Technology, Computer Science, Hyderabad.</li>
       </ul>
     ),
   },
@@ -33,8 +39,8 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Programming Essentials with Python by CISCO.</li>
+        <li>Web development Course by Naresh IT.</li>
       </ul>
     ),
   },
@@ -57,12 +63,21 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
+            - Passionate Self-driven innovative full stack web developer with a passion for creating
+            interactive and responsive web applications having experience
             working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            Sequelize, HTML, CSS, and Git. <br />
+            - Successfully managing a team of Experienced Tech Enthusiasts ready to Create multiple tasks including: <br />
+            <ul className="list-disc pl-2">
+        <li>Web Development</li>
+        <li>AI Development</li>
+        <li>App Designing</li>
+        <li>UI/UX Designing</li>
+        <li> Digital Marketing</li>
+        <li>Google SEO Optimization</li>
+      </ul>
+
+            
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -83,6 +98,7 @@ const AboutSection = () => {
               selectTab={() => handleTabChange("certifications")}
               active={tab === "certifications"}
             >
+              
               {" "}
               Certifications{" "}
             </TabButton>

@@ -62,7 +62,51 @@ const EmailSection = () => {
           <Link href="linkedin.com">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
+
         </div>
+          <br /> <br />
+          <div className="flex flex-col" >  
+
+          <label
+                htmlFor="email"
+                className="text-white block mb-2 text-3xl font-medium"
+              >
+                Contact Me
+              </label>
+              <label
+                htmlFor="email"
+                className="text-white block mb-2 text-4xl font-medium"
+              >
+                {/* <a href="tel:+974 3335 6922">+974 3335 6922</a> */}
+                <button
+              type="submit"
+              className="bg-gray-700 hover:bg-gray-500 w-96 h-20 text-white text-2xl font-extralight tracking-widest py-2.5 px-5 rounded-lg "
+            >
+              <a href="tel:+974 3335 6922">+974 3335 6922</a>
+            </button>
+                
+              </label>
+<br />
+              <label
+                htmlFor="email"
+                className="text-white block mb-2 text-3xl font-medium"
+              >
+                 E-Mail
+              </label>
+              <label
+                htmlFor="email"
+                className="text-white block mb-2 text-4xl font-medium"
+              >
+                <button
+              type="submit"
+              className="bg-gray-700 hover:bg-gray-500 w-[400px] h-20 text-2xl  text-white font-extralight tracking-widest py-2.5 px-5 rounded-lg "
+            >
+              <a href="mailto:obaidansary4u@gmail.com">obaidansary4u@gmail.com</a>
+
+            </button>
+                
+              </label>
+          </div>
       </div>
       <div>
         {emailSubmitted ? (
